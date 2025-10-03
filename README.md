@@ -20,16 +20,6 @@ A small but realistic **healthcare (hospital) database** you can run locally to 
 
 ---
 
-## 🏗️ ER Model (high level)
-```
-Departments 1───* Doctors 1───* Appointments *───* Diagnoses (via AppointmentDiagnoses)
-            │
-            └─────────────────────────────── Patients 1───* Appointments
-Appointments 1───1 Billing 1───* Payments
-```
-
----
-
 ## 🚀 How to Run (MySQL Workbench)
 1. Open **MySQL Workbench** → connect to your local server.
 2. Open a **New SQL Tab**.
